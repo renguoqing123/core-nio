@@ -24,7 +24,6 @@ public class AIOServer {
     }
 
     public void listener() throws InterruptedException, ExecutionException {
-        //        while (true) {
         new Thread() {
             @Override
             public void run() {
